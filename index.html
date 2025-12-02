@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sky Roz - Premium Billing Solutions</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SKY ROZ - Health and Revenue Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="your-logo-image.png" />
 </head>
 <body>
 
 <header>
-    <div class="logo"><span class="sky">Sky</span><span class="roz">Roz</span></div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="billing.html">Billing</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+  <nav class="container">
+    <a href="index.html" class="logo">
+      <img src="your-logo-image.png" alt="SKY ROZ Logo" />
+    </a>
+    <div class="menu-toggle" id="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul id="nav-menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="why-choose-us.html">Why Choose Us</a></li>
+      <li><a href="hipaa.html">HIPAA Compliance</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
 </header>
 
 <section class="hero">
-    <h1>Premium Healthcare Billing Services</h1>
-    <p>The most reliable, accurate, and fast healthcare billing company.</p>
-    <a class="btn" href="services.html">Explore Services</a>
+  <div class="hero-content container">
+    <h1>SKY ROZ</h1>
+    <h2><span>Health & Revenue Solutions</span></h2>
+    <p>Medical Billing, Coding & Revenue Cycle Management Experts</p>
+    <a href="contact.html" class="btn">Get a Quote</a>
+    <a href="https://wa.me/923025757023" target="_blank" class="btn" style="margin-left:15px; background:#ffaaaa;">Chat on WhatsApp</a>
+    <img src="your-profile-image.jpg" alt="Muhammad Numan Khan" class="profile" />
+  </div>
 </section>
 
-<footer>© 2025 Sky Roz Health Solutions</footer>
+<script>
+  // Responsive menu toggle
+  const menuToggle = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+  });
+</script>
 
 </body>
 </html>
