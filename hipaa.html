@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HIPAA Compliance - SKY ROZ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="your-logo-image.png" />
+</head>
+<body>
+
+<header>
+  <nav class="container">
+    <a href="index.html" class="logo">
+      <img src="your-logo-image.png" alt="SKY ROZ Logo" />
+    </a>
+    <div class="menu-toggle" id="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul id="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="why-choose-us.html">Why Choose Us</a></li>
+      <li><a href="hipaa.html" class="active">HIPAA Compliance</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="container">
+  <h2>HIPAA <span>Compliance</span></h2>
+  <p>At SKY ROZ, we prioritize your patients' privacy and data security. Our medical billing solutions strictly adhere to HIPAA regulations, ensuring the confidentiality, integrity, and availability of protected health information (PHI).</p>
+  <ul style="list-style-type: none; padding-left: 0; font-size: 18px; color: #ffc9d1; margin-top: 30px;">
+    <li>✔ <strong>Data Security:</strong> Advanced encryption and secure transmission protocols protect sensitive information.</li>
+    <li>✔ <strong>Access Control:</strong> Strict authentication and authorization measures to restrict data access.</li>
+    <li>✔ <strong>Confidentiality:</strong> Employee training and compliance policies uphold patient privacy at all times.</li>
+    <li>✔ <strong>Compliance Audits:</strong> Regular audits ensure ongoing adherence to HIPAA standards.</li>
+    <li>✔ <strong>Business Associate Agreement:</strong> We sign BAA agreements to ensure mutual responsibility for data protection.</li>
+  </ul>
+  <p>Trust SKY ROZ to handle your billing with the highest standards of security and professionalism.</p>
+</section>
+
+<script>
+  // Responsive menu toggle
+  const menuToggle = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
