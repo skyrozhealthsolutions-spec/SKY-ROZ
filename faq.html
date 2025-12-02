@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ - SKY ROZ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="your-logo-image.png" />
+</head>
+<body>
+
+<header>
+  <nav class="container">
+    <a href="index.html" class="logo">
+      <img src="your-logo-image.png" alt="SKY ROZ Logo" />
+    </a>
+    <div class="menu-toggle" id="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul id="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="why-choose-us.html">Why Choose Us</a></li>
+      <li><a href="hipaa.html">HIPAA Compliance</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="faq.html" class="active">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="container">
+  <h2>Frequently Asked <span>Questions</span></h2>
+  <div>
+    <h3>What is medical billing?</h3>
+    <p>Medical billing is the process of submitting and following up on claims with health insurance companies to receive payment for services rendered by healthcare providers.</p>
+
+    <h3>How does SKY ROZ improve reimbursement?</h3>
+    <p>We optimize coding accuracy, clean claim submissions, and proactive denial management to ensure faster and higher reimbursements.</p>
+
+    <h3>Is my patient data secure?</h3>
+    <p>Yes, SKY ROZ strictly complies with HIPAA regulations to protect all sensitive patient information.</p>
+
+    <h3>What are your pricing options?</h3>
+    <p>We offer flexible percentage-based pricing plans tailored to your practice size and needs. Contact us for a custom quote.</p>
+
+    <h3>How can I get started?</h3>
+    <p>Simply contact us via email or WhatsApp. We’ll provide a free consultation and customize solutions for your practice.</p>
+  </div>
+</section>
+
+<script>
+  // Responsive menu toggle
+  const menuToggle = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
